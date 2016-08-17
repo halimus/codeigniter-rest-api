@@ -11,7 +11,7 @@ class Api extends REST_Controller {
     
     
     
-    public function books_get(){
+    public function book_get(){
         
         $books = array(
             1=> array('title'=>'Book1', 'descreption'=>''),
