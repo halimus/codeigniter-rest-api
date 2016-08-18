@@ -59,3 +59,5 @@ INSERT INTO `author` (`author_id`, `first_name`, `last_name`, `phone`, `email`, 
 (2, 'Steve', 'Prettyman', '223-526-0125', 's.prettyman@domaine.com', NULL),
 (3, 'Larry', 'Ullman', '324-255-8064', 'l.ullman@domaine.com', NULL),
 (4, 'Brett', 'McLaughlin', NULL, 'b.mclaughlin@domaine.com', NULL);
+
+
