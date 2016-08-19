@@ -6,9 +6,9 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
  * 
  * @extends CI_Form_validation
  */
-class MY_Form_validation extends CI_Form_validation {
+class MY_Form_validation extends CI_Form_validation{ 
 
-   // private $ci;
+    private $ci;
 
     function __construct($rules = array()) {
         parent::__construct($rules);
@@ -20,7 +20,7 @@ class MY_Form_validation extends CI_Form_validation {
      */
 
     public function get_errors_as_array() {
-        return $this->_errors_array;
+        return $this->_error_array;  
     }
 
     /*
