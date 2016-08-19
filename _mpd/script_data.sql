@@ -21,11 +21,11 @@ USE `booksdb`;
 --
 
 INSERT INTO `language` (`language_id`, `language_name`) VALUES
-(5, 'Arabic'),
 (1, 'English'),
-(4, 'French'),
+(2, 'Spanish'),
 (3, 'Italian'),
-(2, 'Spanish');
+(4, 'French'),
+(5, 'Arabic');
 
 
 --
@@ -33,10 +33,10 @@ INSERT INTO `language` (`language_id`, `language_name`) VALUES
 --
 
 INSERT INTO `level` (`level_id`, `level_name`) VALUES
-(3, 'Advanced'),
 (1, 'Beginner'),
-(4, 'Expert'),
-(2, 'Intermediate');
+(2, 'Intermediate'),
+(3, 'Advanced'),
+(4, 'Expert');
 
 
 --
@@ -44,20 +44,20 @@ INSERT INTO `level` (`level_id`, `level_name`) VALUES
 --
 
 INSERT INTO `field` (`field_id`, `field_name`) VALUES
-(4, 'Cook'),
-(2, 'History'),
 (1, 'IT'),
-(3, 'Sport');
+(2, 'History'),
+(3, 'Sport'),
+(4, 'Cook');
 
 
 --
 -- Dumping data for table `author`
 --
 
-INSERT INTO `author` (`author_id`, `first_name`, `last_name`, `phone`, `email`, `password`) VALUES
-(1, 'Kevin', 'Tatroe', '929-267-2563', 'k.tattroe@domaine.com', NULL),
-(2, 'Steve', 'Prettyman', '223-526-0125', 's.prettyman@domaine.com', NULL),
-(3, 'Larry', 'Ullman', '324-255-8064', 'l.ullman@domaine.com', NULL),
-(4, 'Brett', 'McLaughlin', NULL, 'b.mclaughlin@domaine.com', NULL);
+INSERT INTO `author` (`author_id`, `first_name`, `last_name`, `phone`, `email`, `password`, `ip_address`, `author_status`) VALUES
+(1, 'Kevin', 'Tatroe', '929-267-2563', 'k.tattroe@domaine.com', '81dc9bdb52d04dc20036dbd8313ed055', '127.0.0.1', 'active'),
+(2, 'Steve', 'Prettyman', '223-526-0125', 's.prettyman@domaine.com', '81dc9bdb52d04dc20036dbd8313ed055', '192.168.0.12', 'active'),
+(3, 'Larry', 'Ullman', '324-255-8064', 'l.ullman@domaine.com', '81dc9bdb52d04dc20036dbd8313ed055', '127.0.0.1', 'active'),
+(4, 'Brett', 'McLaughlin', NULL, 'b.mclaughlin@domaine.com', '81dc9bdb52d04dc20036dbd8313ed055', '192.168.0.5', 'active');
 
 
