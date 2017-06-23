@@ -1,2 +1,3 @@
-# codeigniter-rest-api
-REST API with CodeIgniter
+# README #
+
+codeigniter-restserver
