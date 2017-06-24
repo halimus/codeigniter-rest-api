@@ -1,6 +1,5 @@
-# README #
+# Codeigniter REST API #
 
-Codeigniter REST API
 
 ## Demo : 
 https://demo.halimlardjane.com/c-rest
