@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </head>
     <body>
         <div class="container" style="padding-bottom: 100px;">
-            <h2>REST Server Tests</h2>
+            <h2>CodeIgniter REST Server Tests</h2>
             <div class="row">
                 <div class="col-md-12" style="">
                     <p>
@@ -33,9 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </p>
                     <p>
                         The master project repository is
-                        <a href="https://github.com/chriskacerguis/codeigniter-restserver" target="_blank">
-                            https://github.com/chriskacerguis/codeigniter-restserver
-                        </a>
+                        <a href="https://github.com/halimus/codeigniter-rest-api" target="_blank">https://github.com/halimus/codeigniter-rest-api</a>
                     </p>
                     <p>Click on the links to check whether the REST server is working.</p>
                     
